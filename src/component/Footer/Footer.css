@@ -1,0 +1,40 @@
+.footer{
+    margin-top: 90px;
+}
+.footer .footer-text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.13em;
+}
+
+@media (min-width:992px) {
+    .mod{
+        max-width: 250px;
+        /* padding: 1rem; */
+        color: white;
+        border-width: 6px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom, #343045,rgba(129, 118, 175))1 100%;
+    }
+    .mod2{
+        max-width: 250px;
+        /* padding: 1rem; */
+        border-right: 6px solid;
+        color: white;
+        
+        border-image: linear-gradient(to bottom, #343045,rgba(129, 118, 175))1 100%;
+    }
+    
+}
+@media (max-width:575px) {
+    .footer .btn{
+        width: 295px;
+        height: 55px;
+        top: 4769px;
+        left: 46px;
+        border-radius: 40px;
+
+    }
+}

@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.sbtn{
+
+  width: 214px;
+  height: 48px;
+  top: 589px;
+  left: 84px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+.btn-card{
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+body{
+  background-color: #302d42;
+  padding: 3px 30px;
+  color: #ffffff;
+}
+
+@media (max-width:1199px) {
+  .dblock button {
+      display: block;
+  }
+  .dblock .btn{
+      margin-bottom: 15px;
+  }
+}
+
+/* .sliding{
+  transform: translateX(10%);
+  transition: transform 1s ease-in-out;
+  }
+  
+  .sliding:nth-of-type(even){
+  transform: translateX(-400%);
+  }
+  
+  .sliding.show{
+  transform: translateX(0);
+  }
+  @media (max-width:575px) {
+      .sliding{
+          transform: translateX(10%);
+      }
+      
+  } */
